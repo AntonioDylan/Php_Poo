@@ -2,7 +2,7 @@
 
 include ('BDD.php');
 include ('Entity/Client.php');
-	
+include ('Entity/Commande.php')	;
 abstract class Repository {
 
 	protected static $bdd;	

@@ -5,7 +5,7 @@ class BDD{
 
 	public function __construct(){
 		try{
-			$connect_str = "mysql:host=localhost;dbname=clientsoo";
+			$connect_str = "mysql:host=localhost:3306;dbname=clientsoo";
 			$connect_user ="root";
 			$connect_pass ="";
 			$options[PDO::ATTR_ERRMODE] =PDO::ERRMODE_EXCEPTION;
